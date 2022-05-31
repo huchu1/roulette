@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette</title>
+    <link rel="stylesheet" href="./static/roulette.css">
+    <link rel=”shortcut icon” href="./static/favicon.ico">
+</head>
+    
+<body onload="init();" id="body" class="none">
+    <div id="bg">
+        <div id="pinArea">
+            <div id="pin"></div>
+        </div>
+        <canvas id="canvas" width="600px" height="600px"></canvas>
+    </div>
+    <span id="btn" class="btn">START</span>
+    <div id="modal" class="none">
+        <div id="modalText"></div>
+        <div id="modalImg"></div>
+        <div>
+            <div id="modalBtn" class="btn modalBtn">OK</div>
+        </div>
+    </div>
+
+    <script src="./static/roulette.js"></script>
+</body>
+</html>
